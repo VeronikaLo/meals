@@ -5,7 +5,6 @@ class CategoryItem extends StatelessWidget {
   final String title;
   final Color color;
 
-
   const CategoryItem(this.title, this.color, this.id, {super.key});
 
   @override
