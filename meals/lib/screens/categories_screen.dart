@@ -18,7 +18,7 @@ class CategoriesScreen extends StatelessWidget {
         childAspectRatio: 3/2,
         mainAxisSpacing: 20,
         crossAxisSpacing: 20,),
-      children: categories.map((data)=> CategoryItem(data.title, data.color)).toList(),
+      children: categories.map((data)=> CategoryItem(data.title, data.color, data.id)).toList(),
       ),
     );
   }
